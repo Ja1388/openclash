@@ -7,7 +7,7 @@
 proxy-providers:
 
   糖果云:
-    url: "[https://candytally.cc/tgyun_sub?token=00e61aff61f885157f89243e8dc22f95]"
+    url: "https://candytally.cc/tgyun_sub?token=00e61aff61f885157f89243e8dc22f95"
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连 
 
   家宽云:
-    url: "[https://huaikhwang.central-world.org/api/v1/trails/bolster?token=b5bf619e53beb24a17dd847d8eabdfc6]"
+    url: "https://huaikhwang.central-world.org/api/v1/trails/bolster?token=b5bf619e53beb24a17dd847d8eabdfc6"
     type: http
     interval: 86400
     health-check:
@@ -65,7 +65,7 @@ dns:
     - +.local
     - geosite:cn
 
-ipv6: true
+ipv6: false
 
 # ========================
 # TUN 模块
