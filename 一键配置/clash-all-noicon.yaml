@@ -16,15 +16,15 @@ proxy-providers:
       interval: 300
     proxy: 直连 
 
-  家宽云:
-    url: "https://huaikhwang.central-world.org/api/v1/trails/bolster?token=b5bf619e53beb24a17dd847d8eabdfc6"
+  红杏云:
+    url: "https://hongxingdl.love/hxyunvip?token=6c9f52728658818badea45971a32d83d"
     type: http
     interval: 86400
     health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连         
+       enable: true
+       url: https://www.gstatic.com/generate_204
+       interval: 300
+    proxy: 直连   
 
 proxies:
   - {name: 直连, type: direct}
